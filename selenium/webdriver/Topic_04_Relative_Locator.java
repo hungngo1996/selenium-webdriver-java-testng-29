@@ -36,11 +36,17 @@ public class Topic_04_Relative_Locator {
         //Login button
         By loginbuttonBy = By.cssSelector("button.login-button");
         //Remember Me checkbox
-        By rememberMeCheckboxBy = By.id("Remember Me");
-
+        By rememberMeCheckboxBy = By.id("RememberMe");
+        //Forgot password link
+        WebElement forgotPasswordElement = driver.findElement(By.cssSelector("span.forgot-password"));
+        // Password textbox
+        By pwtextBox = By.cssSelector("input.password");
         WebElement rememberMeTextElement = driver.findElement(RelativeLocator.with(By.tagName("label"))
                 .above(loginbuttonBy)
-                .toRightOf(rememberMeCheckboxBy));
+                .toRightOf(rememberMeCheckboxBy)
+                .toLeftOf(forgotPasswordElement)
+                .below(pwtextBox)
+                .near(forgotPasswordElement));
         System.out.println(rememberMeTextElement.getText());
     }
 

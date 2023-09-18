@@ -4,11 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd5233c5-f438-4c16-8dc1-bec2d5c3115a" name="Changes" comment="Update gitignore" />
+    <list default="true" id="bd5233c5-f438-4c16-8dc1-bec2d5c3115a" name="Changes" comment="Added Topic_04_Relative_Locator">
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_01_Data_Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_00_Template.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_02_Selenium_Locator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_04_Xpath_Css.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_05_Run_More_Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/libraries.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/libraries.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/selenium_server_standalone_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/selenium_server_standalone_3_141_59.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/selenium-server-4.10.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/selenium-server-4.12.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_02_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_04_Relative_Locator.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_04_Relative_Locator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,20 +49,35 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2SueFkbKZLsTtvEsJNcUl1vaGha" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Automation Course/01 - Software/selenium-server-4.12.1.jar",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="Topic_01_Check_Environment" type="TestNG" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Automation Course\02 - Selenium WebDriver\selenium-webdriver-java-testng-29\libraries" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="webdriver" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Topic_05_Run_More_Browser">
+    <configuration name="Topic_04_Relative_Locator.TC_01_Relative (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver-java-testing" />
       <extension name="coverage">
         <pattern>
@@ -52,7 +86,78 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_01_Check_Environment" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_04_Relative_Locator" />
+      <option name="METHOD_NAME" value="TC_01_Relative" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_04_Relative_Locator.TC_01_Relative (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver-java-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_04_Relative_Locator" />
+      <option name="METHOD_NAME" value="TC_01_Relative" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_04_Xpath_Css" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver-java-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_04_Xpath_Css" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_04_Xpath_Css.Register_01_Empty_Data" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver-java-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_04_Xpath_Css" />
+      <option name="METHOD_NAME" value="Register_01_Empty_Data" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_05_Run_More_Browser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver-java-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_05_Run_More_Browser" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -62,7 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Topic_01_Check_Environment" />
+        <item itemvalue="TestNG.Topic_05_Run_More_Browser" />
+        <item itemvalue="TestNG.Topic_04_Xpath_Css" />
+        <item itemvalue="TestNG.Topic_04_Xpath_Css.Register_01_Empty_Data" />
+        <item itemvalue="TestNG.Topic_04_Relative_Locator.TC_01_Relative (3)" />
+        <item itemvalue="TestNG.Topic_04_Relative_Locator.TC_01_Relative (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -91,7 +200,23 @@
       <option name="project" value="LOCAL" />
       <updated>1690299090344</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Topic_02_">
+      <option name="closed" value="true" />
+      <created>1690300121069</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690300121069</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added Topic_04_Relative_Locator">
+      <option name="closed" value="true" />
+      <created>1692678757141</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692678757141</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +233,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update config" />
     <MESSAGE value="Update gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update gitignore" />
+    <MESSAGE value="Added Topic_02_" />
+    <MESSAGE value="Added Topic_04_Relative_Locator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Topic_04_Relative_Locator" />
   </component>
 </project>
