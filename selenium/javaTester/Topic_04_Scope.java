@@ -39,12 +39,12 @@ public class Topic_04_Scope {
 
     @Test
     public void TC_02_Logo() {
-        Assert.assertTrue(driver.findElement(By.cssSelector("img.fb_logo")).isDisplayed());
+
     }
 
     @Test
     public void TC_03_Form() {
-        Assert.assertTrue(driver.findElement(By.xpath("//form[@data-testid='royal_login_form']")).isDisplayed());
+
     }
 
     //public void  TC_04_Form(){

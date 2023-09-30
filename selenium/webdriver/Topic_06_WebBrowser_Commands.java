@@ -11,6 +11,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.time.Duration;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -41,7 +43,7 @@ public class Topic_06_WebBrowser_Commands {
     }
 
     @Test
-    public void TC_01_Url() {
+    public void TC_01_Url() throws MalformedURLException {
         // Mở ra 1 page URL bất kì
         driver.get("https://www.facebook.com/");
         // Đóng tab đang thao tác
@@ -106,8 +108,20 @@ public class Topic_06_WebBrowser_Commands {
         driver.manage().window().setPosition(new Point(0,0));
         driver.manage().window().getPosition();
 
+        // Điều hướng trang web
+        driver.navigate().back();
+        driver.navigate().refresh();
+        driver.navigate().forward();
 
-        driver.navigate();
+        //Thao tác với history của web page (back/forward)
+        driver.navigate().to("https://www.facebook.com/");
+        driver.navigate().to(new URL("https://www.facebook.com/"));
+
+        // Lấy ra ID của cửa sổ/ tab hiện tại
+        // Handle WIndow/tab
+        String homePageWindowID = driver.getWindowHandle();
+        driver.switchTo().window(homePageWindowID);
+
         driver.switchTo();
 
         // Nếu chỉ dùng một lần không cần phải khai báo biến
