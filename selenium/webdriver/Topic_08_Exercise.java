@@ -16,7 +16,7 @@ public class Topic_08_Exercise {
     WebDriver driver;
     @BeforeClass
     public void beforeClass() {
-        driver = new ChromeDriver();
+        driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();
     }
@@ -73,7 +73,6 @@ public class Topic_08_Exercise {
     //Element
     @Test
     public void TC_05_Displayed(){
-
         driver.get("https://automationfc.github.io/basic-form/index.html");
         if (driver.findElement(By.cssSelector("input#email")).isDisplayed()) {
             driver.findElement(By.cssSelector("input#email")).sendKeys("Automation Testing");
@@ -113,7 +112,7 @@ public class Topic_08_Exercise {
         }else {
             System.out.println("Password Textbox is disable");
         }
-        if (driver.findElement(By.cssSelector("input#check-disabled")).isEnabled()) {
+        if (driver.findElement(By.cssSelector("input#check-disbaled")).isEnabled()) {
             System.out.println("Checkbox is enabled");
         }else {
             System.out.println("Checkbox is disabled");
@@ -210,6 +209,6 @@ public class Topic_08_Exercise {
 
     @AfterClass
     public void afterClass() {
-        //driver.quit();
+        driver.quit();
     }
 }
