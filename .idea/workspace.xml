@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd5233c5-f438-4c16-8dc1-bec2d5c3115a" name="Changes" comment="Exercise 09/30/2023">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/selenium_server_standalone_3_141_59.xml" beforeDir="false" />
+    <list default="true" id="bd5233c5-f438-4c16-8dc1-bec2d5c3115a" name="Changes" comment="Exercise 10/04/2023">
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_06_Random.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_07_String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_09_TextBox_TextArea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-webdriver-java-testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-webdriver-java-testing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_08_Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_08_Exercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_00_Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_00_Template.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,18 +50,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Automation Course/01 - Software/selenium-server-4.12.1.jar",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.39011475",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Automation Course/01 - Software/selenium-server-4.12.1.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.39011475&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Automation Course\02 - Selenium WebDriver\selenium-webdriver-java-testng-29\libraries" />
@@ -71,8 +72,34 @@
       <recent name="javaTester" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_08_Exercise.TC_07_Selected">
-    <configuration name="Topic_08_Exercise.TC_03_Navigation" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Topic_09_TextBox_TextArea.Login_05_Success">
+    <configuration name="Topic_06_Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_06_Random" />
+      <module name="selenium-webdriver-java-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaTester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_07_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_07_String" />
+      <module name="selenium-webdriver-java-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaTester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_09_TextBox_TextArea" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver-java-testing" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +108,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_08_Exercise" />
-      <option name="METHOD_NAME" value="TC_03_Navigation" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_09_TextBox_TextArea" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_09_TextBox_TextArea.Login_04_Incorrect_Password_or_Email" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver-java-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_09_TextBox_TextArea" />
+      <option name="METHOD_NAME" value="Login_04_Incorrect_Password_or_Email" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -90,7 +134,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_08_Exercise.TC_04_PageSource" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_09_TextBox_TextArea.Login_05_Success" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver-java-testing" />
       <extension name="coverage">
         <pattern>
@@ -99,62 +143,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_08_Exercise" />
-      <option name="METHOD_NAME" value="TC_04_PageSource" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_08_Exercise.TC_05_Displayed" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-webdriver-java-testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_08_Exercise" />
-      <option name="METHOD_NAME" value="TC_05_Displayed" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_08_Exercise.TC_06_Enabled" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-webdriver-java-testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_08_Exercise" />
-      <option name="METHOD_NAME" value="TC_06_Enabled" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_08_Exercise.TC_07_Selected" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-webdriver-java-testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_08_Exercise" />
-      <option name="METHOD_NAME" value="TC_07_Selected" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_09_TextBox_TextArea" />
+      <option name="METHOD_NAME" value="Login_05_Success" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -164,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Topic_08_Exercise.TC_07_Selected" />
-        <item itemvalue="TestNG.Topic_08_Exercise.TC_06_Enabled" />
-        <item itemvalue="TestNG.Topic_08_Exercise.TC_05_Displayed" />
-        <item itemvalue="TestNG.Topic_08_Exercise.TC_04_PageSource" />
-        <item itemvalue="TestNG.Topic_08_Exercise.TC_03_Navigation" />
+        <item itemvalue="TestNG.Topic_09_TextBox_TextArea.Login_05_Success" />
+        <item itemvalue="TestNG.Topic_09_TextBox_TextArea" />
+        <item itemvalue="Application.Topic_07_String" />
+        <item itemvalue="Application.Topic_06_Random" />
+        <item itemvalue="TestNG.Topic_09_TextBox_TextArea.Login_04_Incorrect_Password_or_Email" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696053983659</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Exercise 10/03/2023">
+      <option name="closed" value="true" />
+      <created>1696335854601</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696335854601</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,6 +256,8 @@
     <MESSAGE value="Added Topic_04_Relative_Locator" />
     <MESSAGE value="New Commit 09/18/2023" />
     <MESSAGE value="Exercise 09/30/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercise 09/30/2023" />
+    <MESSAGE value="Exercise 10/03/2023" />
+    <MESSAGE value="Exercise 10/04/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercise 10/04/2023" />
   </component>
 </project>
