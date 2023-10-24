@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd5233c5-f438-4c16-8dc1-bec2d5c3115a" name="Changes" comment="Default DDL 10/07/2023">
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_08_Parameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_000_Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_11_Custom_Dropdown.java" afterDir="false" />
+    <list default="true" id="bd5233c5-f438-4c16-8dc1-bec2d5c3115a" name="Changes" comment="Customer DDL 10/16/2023">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_12_Buton_CheckBox_Radio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,42 +69,7 @@
       <recent name="javaTester" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_11_Custom_Dropdown.TC_05_NopCommerce">
-    <configuration name="Topic_11_Custom_Dropdown" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-webdriver-java-testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_11_Custom_Dropdown" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_11_Custom_Dropdown.TC_02_React" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-webdriver-java-testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_11_Custom_Dropdown" />
-      <option name="METHOD_NAME" value="TC_02_React" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_12_Buton_CheckBox_Radio.TC_02_Fasa_Button">
     <configuration name="Topic_11_Custom_Dropdown.TC_03_VueJS" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver-java-testing" />
       <extension name="coverage">
@@ -161,13 +124,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_12_Buton_CheckBox_Radio.TC_01_Button" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver-java-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_12_Buton_CheckBox_Radio" />
+      <option name="METHOD_NAME" value="TC_01_Button" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_12_Buton_CheckBox_Radio.TC_02_Fasa_Button" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver-java-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_12_Buton_CheckBox_Radio" />
+      <option name="METHOD_NAME" value="TC_02_Fasa_Button" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_12_Buton_CheckBox_Radio.TC_02_Fasa_Button" />
+        <item itemvalue="TestNG.Topic_12_Buton_CheckBox_Radio.TC_01_Button" />
         <item itemvalue="TestNG.Topic_11_Custom_Dropdown.TC_05_NopCommerce" />
         <item itemvalue="TestNG.Topic_11_Custom_Dropdown.TC_03_VueJS" />
         <item itemvalue="TestNG.Topic_11_Custom_Dropdown.TC_04_EditableDropdown" />
-        <item itemvalue="TestNG.Topic_11_Custom_Dropdown" />
-        <item itemvalue="TestNG.Topic_11_Custom_Dropdown.TC_02_React" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696656791117</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Customer DDL 10/16/2023">
+      <option name="closed" value="true" />
+      <created>1697466516271</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697466516271</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,6 +292,7 @@
     <MESSAGE value="Exercise 10/04/2023" />
     <MESSAGE value="TextBox/TextArea 10/04/2023" />
     <MESSAGE value="Default DDL 10/07/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Default DDL 10/07/2023" />
+    <MESSAGE value="Customer DDL 10/16/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Customer DDL 10/16/2023" />
   </component>
 </project>
