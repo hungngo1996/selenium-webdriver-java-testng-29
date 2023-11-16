@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd5233c5-f438-4c16-8dc1-bec2d5c3115a" name="Changes" comment="Customer DDL 10/16/2023">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_12_Buton_CheckBox_Radio.java" afterDir="false" />
+    <list default="true" id="bd5233c5-f438-4c16-8dc1-bec2d5c3115a" name="Changes" comment="Customer DDL 10/24/2023">
+      <change afterPath="$PROJECT_DIR$/autoIT/authen_firefox.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drapandDrop/drap_and_drop_helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/commons-codec-1.16.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/Checkout/Checkout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_09_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_10_SetterGetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_13_Checkbox_Radio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_14_Alert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_15_Action.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/selenium-server-4.12.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/selenium-server-4.14.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-webdriver-java-testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-webdriver-java-testing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_12_Buton_CheckBox_Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_12_Buton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +63,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Automation Course/01 - Software/selenium-server-4.12.1.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Automation Course/02 - Selenium WebDriver/selenium-webdriver-java-testng-29/libraries&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.39011475&quot;,
@@ -64,13 +75,17 @@
       <recent name="C:\Automation Course\02 - Selenium WebDriver\selenium-webdriver-java-testng-29\libraries" />
       <recent name="C:\Automation Course\02 - Selenium WebDriver\selenium-webdriver-java-testng-29\SourceDocs" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Automation Course\02 - Selenium WebDriver\selenium-webdriver-java-testng-29\autoIT" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="webdriver" />
+      <recent name="Checkout" />
       <recent name="javaTester" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_12_Buton_CheckBox_Radio.TC_02_Fasa_Button">
-    <configuration name="Topic_11_Custom_Dropdown.TC_03_VueJS" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Topic_15_Action.TC_09_DragandDrop_HTML5_Xpath">
+    <configuration name="Topic_15_Action.TC_06_DoubleClick" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver-java-testing" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +94,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_11_Custom_Dropdown" />
-      <option name="METHOD_NAME" value="TC_03_VueJS" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_15_Action" />
+      <option name="METHOD_NAME" value="TC_06_DoubleClick" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -88,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_11_Custom_Dropdown.TC_04_EditableDropdown" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_15_Action.TC_07_RightClick" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver-java-testing" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +112,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_11_Custom_Dropdown" />
-      <option name="METHOD_NAME" value="TC_04_EditableDropdown" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_15_Action" />
+      <option name="METHOD_NAME" value="TC_07_RightClick" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -106,7 +121,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_11_Custom_Dropdown.TC_05_NopCommerce" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_15_Action.TC_08_DragandDrop_HTML4" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver-java-testing" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +130,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_11_Custom_Dropdown" />
-      <option name="METHOD_NAME" value="TC_05_NopCommerce" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_15_Action" />
+      <option name="METHOD_NAME" value="TC_08_DragandDrop_HTML4" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -124,7 +139,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_12_Buton_CheckBox_Radio.TC_01_Button" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_15_Action.TC_09_DragandDrop_HTML5_Css" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver-java-testing" />
       <extension name="coverage">
         <pattern>
@@ -133,8 +148,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_12_Buton_CheckBox_Radio" />
-      <option name="METHOD_NAME" value="TC_01_Button" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_15_Action" />
+      <option name="METHOD_NAME" value="TC_09_DragandDrop_HTML5_Css" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -142,7 +157,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_12_Buton_CheckBox_Radio.TC_02_Fasa_Button" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_15_Action.TC_09_DragandDrop_HTML5_Xpath" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver-java-testing" />
       <extension name="coverage">
         <pattern>
@@ -151,8 +166,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_12_Buton_CheckBox_Radio" />
-      <option name="METHOD_NAME" value="TC_02_Fasa_Button" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_15_Action" />
+      <option name="METHOD_NAME" value="TC_09_DragandDrop_HTML5_Xpath" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -162,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Topic_12_Buton_CheckBox_Radio.TC_02_Fasa_Button" />
-        <item itemvalue="TestNG.Topic_12_Buton_CheckBox_Radio.TC_01_Button" />
-        <item itemvalue="TestNG.Topic_11_Custom_Dropdown.TC_05_NopCommerce" />
-        <item itemvalue="TestNG.Topic_11_Custom_Dropdown.TC_03_VueJS" />
-        <item itemvalue="TestNG.Topic_11_Custom_Dropdown.TC_04_EditableDropdown" />
+        <item itemvalue="TestNG.Topic_15_Action.TC_09_DragandDrop_HTML5_Xpath" />
+        <item itemvalue="TestNG.Topic_15_Action.TC_09_DragandDrop_HTML5_Css" />
+        <item itemvalue="TestNG.Topic_15_Action.TC_08_DragandDrop_HTML4" />
+        <item itemvalue="TestNG.Topic_15_Action.TC_07_RightClick" />
+        <item itemvalue="TestNG.Topic_15_Action.TC_06_DoubleClick" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697466516271</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Customer DDL 10/24/2023">
+      <option name="closed" value="true" />
+      <created>1698151236190</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698151236190</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,6 +316,7 @@
     <MESSAGE value="TextBox/TextArea 10/04/2023" />
     <MESSAGE value="Default DDL 10/07/2023" />
     <MESSAGE value="Customer DDL 10/16/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Customer DDL 10/16/2023" />
+    <MESSAGE value="Customer DDL 10/24/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Customer DDL 10/24/2023" />
   </component>
 </project>
