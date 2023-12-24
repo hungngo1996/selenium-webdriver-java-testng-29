@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd5233c5-f438-4c16-8dc1-bec2d5c3115a" name="Changes" comment="11/24/2023">
-      <change afterPath="$PROJECT_DIR$/selenium/Checkout/CheckoutCus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/Checkout/CheckoutCustomer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/RoleProduct/CheckUrlRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_16_Popup_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_16_Popup_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_17_Shadow_DOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_18_Frame_iFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_19_Window_Tab.java" afterDir="false" />
+    <list default="true" id="bd5233c5-f438-4c16-8dc1-bec2d5c3115a" name="Changes" comment="12/02/2023">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_20_Selenium_Version_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_21_JavascriptExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_22_Upload_files.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_23_Wait_01_Element_Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_24_Find_Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_25_Implicit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploadFiles/ChaoMaoHCM.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploadFiles/ChaoMaoHN.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploadFiles/ChaoMaoHue.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraries/selenium-server-4.14.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/selenium-server-4.15.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-webdriver-java-testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-webdriver-java-testing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_14_Alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_14_Alert.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Automation Course/02 - Selenium WebDriver/selenium-webdriver-java-testng-29/libraries/selenium-server-4.15.0.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Automation Course/02 - Selenium WebDriver/selenium-webdriver-java-testng-29/uploadFiles&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.39011475&quot;,
@@ -71,6 +69,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Automation Course\02 - Selenium WebDriver\selenium-webdriver-java-testng-29\uploadFiles" />
       <recent name="C:\Automation Course\02 - Selenium WebDriver\selenium-webdriver-java-testng-29\libraries" />
       <recent name="C:\Automation Course\02 - Selenium WebDriver\selenium-webdriver-java-testng-29\SourceDocs" />
     </key>
@@ -85,8 +84,8 @@
       <recent name="javaTester" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_19_Window_Tab.TC_03_TechPanda">
-    <configuration name="Topic_18_Frame_iFrame.TC_02_Url" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Topic_25_Implicit.TC_03_Greater_Than_5_Second">
+    <configuration name="Topic_22_Upload_files" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver-java-testing" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +94,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_18_Frame_iFrame" />
-      <option name="METHOD_NAME" value="TC_02_Url" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_22_Upload_files" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_23_Wait_01_Element_Status.TC_04_Staleness" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver-java-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_23_Wait_01_Element_Status" />
+      <option name="METHOD_NAME" value="TC_04_Staleness" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -104,7 +120,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_18_Frame_iFrame.TC_03_Url" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_25_Implicit.TC_01_Url" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver-java-testing" />
       <extension name="coverage">
         <pattern>
@@ -113,25 +129,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_18_Frame_iFrame" />
-      <option name="METHOD_NAME" value="TC_03_Url" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_19_Window_Tab.TC_01_Url" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-webdriver-java-testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_19_Window_Tab" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_25_Implicit" />
       <option name="METHOD_NAME" value="TC_01_Url" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -140,7 +138,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_19_Window_Tab.TC_02_Kyna" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_25_Implicit.TC_02_Less_Than_5_Second" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver-java-testing" />
       <extension name="coverage">
         <pattern>
@@ -149,8 +147,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_19_Window_Tab" />
-      <option name="METHOD_NAME" value="TC_02_Kyna" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_25_Implicit" />
+      <option name="METHOD_NAME" value="TC_02_Less_Than_5_Second" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -158,7 +156,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_19_Window_Tab.TC_03_TechPanda" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_25_Implicit.TC_03_Greater_Than_5_Second" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver-java-testing" />
       <extension name="coverage">
         <pattern>
@@ -167,8 +165,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_19_Window_Tab" />
-      <option name="METHOD_NAME" value="TC_03_TechPanda" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_25_Implicit" />
+      <option name="METHOD_NAME" value="TC_03_Greater_Than_5_Second" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -178,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Topic_19_Window_Tab.TC_03_TechPanda" />
-        <item itemvalue="TestNG.Topic_19_Window_Tab.TC_02_Kyna" />
-        <item itemvalue="TestNG.Topic_19_Window_Tab.TC_01_Url" />
-        <item itemvalue="TestNG.Topic_18_Frame_iFrame.TC_03_Url" />
-        <item itemvalue="TestNG.Topic_18_Frame_iFrame.TC_02_Url" />
+        <item itemvalue="TestNG.Topic_25_Implicit.TC_03_Greater_Than_5_Second" />
+        <item itemvalue="TestNG.Topic_25_Implicit.TC_02_Less_Than_5_Second" />
+        <item itemvalue="TestNG.Topic_25_Implicit.TC_01_Url" />
+        <item itemvalue="TestNG.Topic_22_Upload_files" />
+        <item itemvalue="TestNG.Topic_23_Wait_01_Element_Status.TC_04_Staleness" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700125123381</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="12/02/2023">
+      <option name="closed" value="true" />
+      <created>1701533988518</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1701533988518</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,6 +333,7 @@
     <MESSAGE value="Customer DDL 10/16/2023" />
     <MESSAGE value="Customer DDL 10/24/2023" />
     <MESSAGE value="11/24/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="11/24/2023" />
+    <MESSAGE value="12/02/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="12/02/2023" />
   </component>
 </project>
