@@ -4,17 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd5233c5-f438-4c16-8dc1-bec2d5c3115a" name="Changes" comment="12/02/2023">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_20_Selenium_Version_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_21_JavascriptExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_22_Upload_files.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_23_Wait_01_Element_Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_24_Find_Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_25_Implicit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploadFiles/ChaoMaoHCM.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploadFiles/ChaoMaoHN.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploadFiles/ChaoMaoHue.jpg" afterDir="false" />
+    <list default="true" id="bd5233c5-f438-4c16-8dc1-bec2d5c3115a" name="Changes" comment="12/24/2023">
+      <change afterPath="$PROJECT_DIR$/SourceDocs/selenium-chrome-driver-4.16.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SourceDocs/selenium-chromium-driver-4.16.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SourceDocs/selenium-edge-driver-4.16.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SourceDocs/selenium-firefox-driver-4.16.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SourceDocs/selenium-manager-4.16.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SourceDocs/selenium-safari-driver-4.16.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_14_Constructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_26_Wait_04_Static_Dead_Hard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_27_Wait_05_Explicit_01_Knowledge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_28_Wait_06_Explicit_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_29_Wait_07_Explicit_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_30_Wait_08_Fluent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_31_Wait_09_Page_Ready.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/libraries.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/libraries.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceDocs/selenium-api-4.12.1-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SourceDocs/selenium-api-4.16.1-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceDocs/selenium-chrome-driver-4.12.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceDocs/selenium-chromium-driver-4.12.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceDocs/selenium-devtools-v114-4.12.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceDocs/selenium-devtools-v115-4.12.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceDocs/selenium-devtools-v116-4.12.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceDocs/selenium-devtools-v85-4.12.1-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SourceDocs/selenium-devtools-v85-4.16.1-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceDocs/selenium-edge-driver-4.12.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceDocs/selenium-firefox-driver-4.12.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceDocs/selenium-grid-4.12.1-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SourceDocs/selenium-grid-4.16.1-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceDocs/selenium-http-4.12.1-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SourceDocs/selenium-http-4.16.1-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceDocs/selenium-ie-driver-4.12.1-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SourceDocs/selenium-ie-driver-4.16.1-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceDocs/selenium-json-4.12.1-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SourceDocs/selenium-json-4.16.1-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceDocs/selenium-manager-4.12.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceDocs/selenium-os-4.12.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceDocs/selenium-remote-driver-4.12.1-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SourceDocs/selenium-remote-driver-4.16.1-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceDocs/selenium-safari-driver-4.12.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceDocs/selenium-support-4.12.1-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SourceDocs/selenium-support-4.16.1-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/selenium-server-4.15.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/selenium-server-4.16.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/testng-7.8.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/testng-7.9.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/testng-7.8.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/testng-7.9.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-webdriver-java-testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-webdriver-java-testing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_000_Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_000_Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_09_TextBox_TextArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_09_TextBox_TextArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_10_Default_DDL.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_10_Default_DDL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_22_Upload_files.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_22_Upload_files.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_24_Find_Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_24_Wait_02_Find_Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_25_Implicit.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_25_Wait_03_Implicit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,18 +93,18 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Automation Course/02 - Selenium WebDriver/selenium-webdriver-java-testng-29/uploadFiles&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Automation Course/01 - Software/testng-7.9.0-sources.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.39011475&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.21888791&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Automation Course\02 - Selenium WebDriver\selenium-webdriver-java-testng-29\uploadFiles" />
       <recent name="C:\Automation Course\02 - Selenium WebDriver\selenium-webdriver-java-testng-29\libraries" />
       <recent name="C:\Automation Course\02 - Selenium WebDriver\selenium-webdriver-java-testng-29\SourceDocs" />
+      <recent name="C:\Automation Course\02 - Selenium WebDriver\selenium-webdriver-java-testng-29\uploadFiles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Automation Course\02 - Selenium WebDriver\selenium-webdriver-java-testng-29\selenium\RoleProduct" />
@@ -84,9 +117,8 @@
       <recent name="javaTester" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_25_Implicit.TC_03_Greater_Than_5_Second">
-    <configuration name="Topic_22_Upload_files" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-webdriver-java-testing" />
+  <component name="RunManager" selected="TestNG.Topic_01_Check_Environment">
+    <configuration name="Topic_01_Check_Environment" type="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="webdriver.*" />
@@ -94,7 +126,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_22_Upload_files" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_01_Check_Environment" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -102,7 +134,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_23_Wait_01_Element_Status.TC_04_Staleness" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_25_Wait_03_Implicit.TC_01_Equal_5_Second" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver-java-testing" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +143,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_23_Wait_01_Element_Status" />
-      <option name="METHOD_NAME" value="TC_04_Staleness" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_25_Wait_03_Implicit" />
+      <option name="METHOD_NAME" value="TC_01_Equal_5_Second" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -120,7 +152,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_25_Implicit.TC_01_Url" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_30_Wait_08_Fluent.TC_03_" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver-java-testing" />
       <extension name="coverage">
         <pattern>
@@ -129,8 +161,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_25_Implicit" />
-      <option name="METHOD_NAME" value="TC_01_Url" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_30_Wait_08_Fluent" />
+      <option name="METHOD_NAME" value="TC_03_" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -138,7 +170,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_25_Implicit.TC_02_Less_Than_5_Second" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_31_Wait_09_Page_Ready.TC_01_Admin_NopCommerce" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver-java-testing" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +179,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_25_Implicit" />
-      <option name="METHOD_NAME" value="TC_02_Less_Than_5_Second" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_31_Wait_09_Page_Ready" />
+      <option name="METHOD_NAME" value="TC_01_Admin_NopCommerce" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -156,7 +188,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_25_Implicit.TC_03_Greater_Than_5_Second" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_31_Wait_09_Page_Ready.TC_02_OrangeHRM_API_Document" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver-java-testing" />
       <extension name="coverage">
         <pattern>
@@ -165,8 +197,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_25_Implicit" />
-      <option name="METHOD_NAME" value="TC_03_Greater_Than_5_Second" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_31_Wait_09_Page_Ready" />
+      <option name="METHOD_NAME" value="TC_02_OrangeHRM_API_Document" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -176,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Topic_25_Implicit.TC_03_Greater_Than_5_Second" />
-        <item itemvalue="TestNG.Topic_25_Implicit.TC_02_Less_Than_5_Second" />
-        <item itemvalue="TestNG.Topic_25_Implicit.TC_01_Url" />
-        <item itemvalue="TestNG.Topic_22_Upload_files" />
-        <item itemvalue="TestNG.Topic_23_Wait_01_Element_Status.TC_04_Staleness" />
+        <item itemvalue="TestNG.Topic_01_Check_Environment" />
+        <item itemvalue="TestNG.Topic_31_Wait_09_Page_Ready.TC_02_OrangeHRM_API_Document" />
+        <item itemvalue="TestNG.Topic_31_Wait_09_Page_Ready.TC_01_Admin_NopCommerce" />
+        <item itemvalue="TestNG.Topic_30_Wait_08_Fluent.TC_03_" />
+        <item itemvalue="TestNG.Topic_25_Wait_03_Implicit.TC_01_Equal_5_Second" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701533988518</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="12/24/2023">
+      <option name="closed" value="true" />
+      <created>1703405876093</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1703405876093</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -334,6 +374,7 @@
     <MESSAGE value="Customer DDL 10/24/2023" />
     <MESSAGE value="11/24/2023" />
     <MESSAGE value="12/02/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="12/02/2023" />
+    <MESSAGE value="12/24/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="12/24/2023" />
   </component>
 </project>

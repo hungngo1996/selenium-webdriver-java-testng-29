@@ -48,7 +48,7 @@ public class Topic_09_TextBox_TextArea {
     public void Login_03_Invalid_Password() {
         driver.get("http://live.techpanda.org/");
         driver.findElement(By.xpath("//div[@class = 'footer']//a[@title='My Account']")).click();
-        sleepInSeconds(1);
+        //sleepInSeconds(1);
 
         driver.findElement(By.xpath("//input[@id='email']")).sendKeys("hung@gmail.com");
         driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("123");

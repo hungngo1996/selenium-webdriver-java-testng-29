@@ -32,7 +32,7 @@ public class Topic_10_Default_DDL {
     @Test
     public void TC_01_Register() {
         driver.findElement(By.xpath("//a[@class='ico-register']")).click();
-        sleepInSeconds(2);
+        //sleepInSeconds(2);
         driver.findElement(By.xpath("//input[@id='FirstName']")).sendKeys(firstName);
         driver.findElement(By.xpath("//input[@id='LastName']")).sendKeys(lastName);
 
@@ -65,15 +65,15 @@ public class Topic_10_Default_DDL {
 
         // login
         driver.findElement(By.cssSelector("a.ico-login")).click();
-        sleepInSeconds(1);
+        //sleepInSeconds(1);
         driver.findElement(By.xpath("//input[@id='Email']")).sendKeys(email);
         driver.findElement(By.xpath("//input[@id='Password']")).sendKeys(passWord);
         driver.findElement(By.cssSelector("button.login-button")).click();
-        sleepInSeconds(2);
+        //sleepInSeconds(2);
         //Verify
         driver.findElement(By.cssSelector("a.ico-account")).click();
 
-        sleepInSeconds(2);
+        //sleepInSeconds(2);
         Assert.assertEquals(driver.findElement(By.xpath("//input[@id='FirstName']")).getAttribute("value"),firstName);
         Assert.assertEquals(driver.findElement(By.xpath("//input[@id='LastName']")).getAttribute("value"),lastName);
         Assert.assertEquals(new Select(driver.findElement(By.name("DateOfBirthDay"))).getFirstSelectedOption().getText(),day);

@@ -30,7 +30,7 @@ public class Topic_22_Upload_files {
     @BeforeClass
     public void beforeClass() {
         driver = new FirefoxDriver();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
     }
 
@@ -65,7 +65,7 @@ public class Topic_22_Upload_files {
         List<WebElement> listIMG = driver.findElements(By.xpath("//tr[@class=\"template-upload fade image in\"]//button[@class=\"btn btn-primary start\"]"));
         for (WebElement items : listIMG ){
             items.click();
-            sleepInSeconds(2);
+            //sleepInSeconds(2);
         }
         //verify
         Assert.assertTrue(driver.findElement(By.xpath("//p[@class=\"name\"]//a[@title=\"ChaoMaoHCM.jfif\"]")).isDisplayed());
@@ -83,6 +83,6 @@ public class Topic_22_Upload_files {
 
     @AfterClass
     public void afterClass() {
-        driver.quit();
+        //driver.quit();
     }
 }
