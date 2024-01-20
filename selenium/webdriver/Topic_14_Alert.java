@@ -1,4 +1,4 @@
-package webdriver;
+package selenium.webdriver;
 
 import net.bytebuddy.asm.Advice;
 import org.apache.commons.codec.binary.Base64;

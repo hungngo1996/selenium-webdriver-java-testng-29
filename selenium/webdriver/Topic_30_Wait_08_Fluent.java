@@ -1,4 +1,4 @@
-package webdriver;
+package selenium.webdriver;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
