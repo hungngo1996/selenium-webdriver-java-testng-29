@@ -1,24 +1,38 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Seleniunm WebDriver" verbose="1">
-
-    <groups>
-        <run>
-            <include name="order"/>
-        </run>
-    </groups>
-
-    <test name="Run on Chrome Browser">
-        <packages>
-            <package name="orangeHrm.categories"></package>
-            <package name="orangeHrm.customer"></package>
-            <package name="orangeHrm.orders"></package>
-        </packages>
-        <!--<classes>
-            <class name="selenium.testng.Topic_02_Annotations">
-                <methods>
-                    <include name="Test02"/>
-                </methods>
+<suite name="Seleniunm WebDriver" verbose="1" parallel="tests">
+    <!-- Global -->
+        <!--<parameter name="environments" value="live"/>-->
+        <!--<parameter name="environment" value="test"/>
+        <parameter name="environment" value="release"/>-->
+    <test name="Run on Firefox Browser">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="version" value="122"/>
+        <classes>
+            <class name="selenium.testng.Topic_09_Parameter">
             </class>
-        </classes>-->
+            <class name="selenium.testng.Topic_08_DataProvider">
+            </class>
+        </classes>
     </test>
+    <test name="Run on Chrome Browser">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="122"/>
+        <classes>
+            <class name="selenium.testng.Topic_09_Parameter">
+            </class>
+        </classes>
+    </test>
+    <test name="Run on Edge Browser">
+        <parameter name="browser" value="edge"/>
+        <parameter name="version" value="122"/>
+        <classes>
+            <class name="selenium.testng.Topic_09_Parameter">
+            </class>
+        </classes>
+    </test>
+        <!--<test name="Run on Edge Browser">
+            <classes>
+                <class name="selenium.testng.Topic_12_Parallel_Method"/>
+            </classes>
+        </test>-->
 </suite>
